@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#border{
+    /* width: 400px; */
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-image: linear-gradient(
+        to left, rgb(223, 43, 169) 40%,
+        rgb(233, 117, 40) 10%);
+    
+    /* padding: 25px; */
+    /* down/up/left/right/diagonally    */
+}
+
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+    height: 40px;
+    width: 45px;
+}
+
